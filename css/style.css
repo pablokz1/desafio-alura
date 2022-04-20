@@ -1,0 +1,139 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: lightblue;
+}
+
+header {
+	background: linear-gradient(#FEFEFE, lightblue);
+}
+
+.logo {
+	position: absolut;
+	padding: 25px;
+}
+
+.titulo {
+	text-align: center;
+	text-transform: uppercase;
+	color: #0A3871;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	position: absolut;
+	padding: 25px;
+}
+
+.caixa{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.entrada {
+	margin: 0 20px 20px;
+	padding: 10px 25px;
+	width: 740px;
+	height: 350px;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	font-size: 25px;
+	text-align: center;
+}
+
+.resultado {
+	margin: 0 150px auto;
+	padding: 10px 25px;
+	width: 250px;
+	height: 350px;
+	box-sizing: border-box;
+	border: 2px solid #0A3871;
+	border-radius: 10px;
+	text-align: center;
+	
+}
+
+main p {
+	color: #0A3871;
+	padding: 20px;
+	
+}
+
+.botao-crip {
+	width:25%;
+	padding: 15px 0;
+	margin: 0 0 0 15px;
+	background: #0A3871;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.botao-crip:hover {
+	background: white;
+	color: #0A3871;
+	transform: scale(1.2);
+}
+
+.botao-descrip {
+	width:25%;
+	padding: 15px 0;
+	background: #FFFFFF;
+	color: #0A3871;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin: 0 0 0 5em;
+}
+
+.botao-descrip:hover {
+	background: #0A3871;
+	color: white;
+	transform: scale(1.2);
+}
+
+.botao-copiar {
+	width:10%;
+	padding: 15px 0;
+	margin: 0 0 0 11em;
+	background: #0A3871;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.botao-copiar:hover {
+	background: white;
+	color: #0A3871;
+	transform: scale(1.2);
+}
+
+footer {
+	width: 100%;
+	padding: 40px 0;
+	margin: 3em 0 0;
+	text-align: center;
+	background: linear-gradient(lightblue, #0A3871);
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.programador {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
